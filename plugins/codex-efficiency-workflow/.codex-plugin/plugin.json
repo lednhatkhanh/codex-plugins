@@ -1,0 +1,34 @@
+{
+  "name": "codex-efficiency-workflow",
+  "version": "0.1.0",
+  "description": "Fast, cost-aware Codex workflows with optional subagent templates.",
+  "author": {
+    "name": "Local developer"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "subagents",
+    "cost",
+    "workflow"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex Efficiency Workflow",
+    "shortDescription": "Fast, cost-aware coding workflows.",
+    "longDescription": "Reusable skills and custom-agent templates for choosing the cheapest reliable workflow, delegating only when it pays off, and validating changes efficiently across projects.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Review"
+    ],
+    "defaultPrompt": [
+      "Use $fast-dev for this task.",
+      "Use $agentic-dev for a parallel workflow."
+    ],
+    "brandColor": "#2563EB"
+  }
+}

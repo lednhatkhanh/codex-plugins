@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fast Dev"
+  short_description: "Work fast with minimal context and cost"
+  default_prompt: "Use $fast-dev to handle this with the cheapest reliable workflow."

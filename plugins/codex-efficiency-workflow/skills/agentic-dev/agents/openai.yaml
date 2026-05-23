@@ -1,0 +1,6 @@
+interface:
+  display_name: "Agentic Dev"
+  short_description: "Run bounded multi-agent delivery"
+  default_prompt: "Use $agentic-dev to plan and run a bounded multi-agent workflow."
+policy:
+  allow_implicit_invocation: false

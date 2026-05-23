@@ -1,0 +1,14 @@
+# Suggested user or project Codex config for cost-aware subagent work.
+# Copy into ~/.codex/config.toml for personal defaults or .codex/config.toml for a project.
+
+[agents]
+# Default is 6. Use 4 to keep fan-out useful while reducing parallel token spend,
+# local resource pressure, and coordination overhead.
+max_threads = 4
+
+# Default is 1. Keep it there so direct child agents cannot recursively fan out.
+max_depth = 1
+
+# Default per-worker timeout for CSV-style agent jobs is 1800 seconds when unset.
+# Lower this if you often run large fan-out jobs and prefer bounded cost.
+job_max_runtime_seconds = 1200

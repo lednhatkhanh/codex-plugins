@@ -1,0 +1,20 @@
+{
+  "name": "personal-codex-marketplace",
+  "interface": {
+    "displayName": "Personal Codex Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "codex-efficiency-workflow",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-efficiency-workflow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
