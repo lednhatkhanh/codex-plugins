@@ -42,7 +42,7 @@ Then restart Codex and open `/plugins`. The marketplace name is `personal-codex-
 Use `plugin-creator` for scaffolding when possible, but target this repository:
 
 ```bash
-python3 /Users/klausle/.codex/skills/.system/plugin-creator/scripts/create_basic_plugin.py <plugin-name> \
+python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/plugin-creator/scripts/create_basic_plugin.py" <plugin-name> \
   --path ./plugins \
   --marketplace-path ./.agents/plugins/marketplace.json \
   --with-skills \

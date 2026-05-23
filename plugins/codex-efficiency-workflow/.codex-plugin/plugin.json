@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Fast, cost-aware Codex workflows with optional subagent templates.",
   "author": {
-    "name": "Local developer"
+    "name": "Klaus Le"
   },
   "license": "MIT",
   "keywords": [
@@ -18,7 +18,7 @@
     "displayName": "Codex Efficiency Workflow",
     "shortDescription": "Fast, cost-aware coding workflows.",
     "longDescription": "Reusable skills and custom-agent templates for choosing the cheapest reliable workflow, delegating only when it pays off, and validating changes efficiently across projects.",
-    "developerName": "Local developer",
+    "developerName": "Klaus Le",
     "category": "Productivity",
     "capabilities": [
       "Read",
